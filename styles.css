@@ -1,0 +1,30 @@
+body {
+    /*background-color: #333333;*/
+
+}
+
+.radio-option {
+  display: inline-block;
+}
+
+.radio-option input[type='radio']:not(old) {
+  opacity: 0;
+  background: none;
+  display: none;
+}
+
+.radio-option input[type='radio']:not(old) + label {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #EEEEEE;
+}
+
+#img-selection {
+    opacity: 0;
+}
+
+.radio-option input[type='radio']:not(old) + label.active {
+  color: black !important;
+}
+

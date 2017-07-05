@@ -1,0 +1,15 @@
+{
+  "name": "baki-mumkaya-web",
+  "version": "1.0.0",
+  "description": "Baki Mumkaya's professional website and portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Pomerville",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
